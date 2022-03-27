@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "desafio-black-and-white---hans-contreras",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Hans Contreras",
+  "license": "ISC",
+  "description": ""
+}
