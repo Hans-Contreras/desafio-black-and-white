@@ -25,11 +25,9 @@ const argv = yargs
             args.key == key
                 ? // 08 metodo .exec() prueba una coincidencia en una cadena
                   // devulve como resultado array o null
-                child.exec('node server.js', (err, stdout) => {
-                    err? console.log(err): console.log(stdout)
-                })
+                child.exec("npm run start")
                 : //09
-                console.log('Key incorrecta, Acceso denegado')
+                console.log('Key incorrecta, Acceso denegado');
         }
     )
     .help().argv
